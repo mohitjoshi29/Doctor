@@ -1,0 +1,12 @@
+.createBlog .blogFirst{
+    padding:50px 50px;
+    width:80%;
+    height:auto;
+}
+.blogtext{
+    color: darkblue;
+}
+.blogbtn{
+    background-color: darkblue;
+    color: white;
+}

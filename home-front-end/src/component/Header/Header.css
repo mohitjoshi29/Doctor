@@ -1,0 +1,96 @@
+/* .navList{
+    display: flex;
+    justify-content: right;
+    margin-left: 15%;
+} */
+
+/* .navList ul li{
+    margin-left:20px !important;
+    text-decoration: none;
+} */
+.navList ul li{
+    color: white !important;
+    font-weight: bold;
+    margin-left:20px !important;
+   text-decoration: none !important;
+   border-bottom:none;
+   color: inherit; 
+   cursor: pointer;
+}
+
+.navList ul li:hover{
+    text-decoration: underline !important;
+    transition: 0.5s ease-in-out;
+    translate: 5px !important;
+}
+.section1 h2,p{
+    font-family: 'Arial';
+    font-weight: bold !important;
+}
+
+@keyframes animdiv {
+    0%   {left:0px; top:0px;}
+    25%  {left:40px; top:0px;}
+    50%  {left:40px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+
+div .animdiv{
+    position: relative;
+    animation: animdiv 3s infinite;
+}
+
+@media screen and (max-width:400px){
+    .section1{
+        margin-top: -70px !important;
+    }
+    .animdiv img{
+        width:350px !important;
+        margin-left: -10px !important; 
+        position: relative;
+        top: 0;
+    }
+    .section1 button{
+        width: 90% !important;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:600px) and (min-width:401px){
+    .section1{
+        margin-top: -70px !important;
+    }
+    .animdiv img{
+        width:500px !important;
+        margin-left: -80px !important; 
+        position: relative;
+        top: 0;
+    }
+    /* .section1{
+        margin-top: -10px;
+    } */
+}
+@media screen and (max-width:900px) and (min-width:601px){
+    .section1{
+        margin-top: -90px !important;
+    }
+    .animdiv img{
+        width:500px !important;
+        margin-top: 70px;
+        margin-left: -100px !important; 
+        position: relative;
+        top: 0;
+    }
+}
+@media screen and (max-width:1200px) and (min-width:901px){
+    .section1{
+        margin-top: -90px !important;
+    }
+    .animdiv img{
+        width:500px !important;
+        margin-top: 70px;
+        margin-left: -50px !important; 
+        position: relative;
+        top: 0;
+    }
+}

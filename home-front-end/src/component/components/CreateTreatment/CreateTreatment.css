@@ -1,0 +1,12 @@
+.createTreat .treatFirst{
+    padding:50px 50px;
+    width:80%;
+    height:auto;
+}
+.treatext{
+    color: darkblue;
+}
+.treatbtn{
+    background-color: darkblue;
+    color: white;
+}

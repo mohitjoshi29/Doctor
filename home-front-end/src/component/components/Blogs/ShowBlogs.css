@@ -1,0 +1,20 @@
+.treatImg{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.treatmentHeading .treatmentPara{
+    padding: 20px 260px !important;
+}
+.blogBtn{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}

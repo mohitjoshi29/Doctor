@@ -1,0 +1,23 @@
+.treatIcn{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+.treatmentHeading .treatmentPara{
+    /* white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important; */
+    padding: 20px 260px !important;
+    font-weight: normal !important;
+}
+.blogBtn{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    width:100%;
+}

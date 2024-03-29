@@ -1,0 +1,271 @@
+.backimg1{
+    background-image: url("../MyImg/curosal2.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.curoselHD{
+    background-image: url("../MyImg/curoselHd.jpeg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.Guide{
+    background-image: url("../MyImg/curoselHd2.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.curoselHD1{
+    background-image: url("../MyImg/curoelHd1.jpeg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.section2Div p{
+    font-size: 18px;
+    font-weight: normal !important;
+}
+/* .section2 p{
+    font-weight: normal !important;
+} */
+.section3 p{
+    display: flex;
+    justify-content: center !important;
+    font-weight: normal !important;
+}
+.section4 img{
+    width: 50%;
+    height:50%;
+}
+.section6 p{
+    font-weight: normal !important;
+}
+.section7 p{
+    font-weight: normal !important;
+}
+.section8 p{
+    font-weight: normal !important;
+}
+
+.section10 p{
+    display: flex;
+    justify-content: center !important;
+    font-size: 20px;
+    font-weight: normal !important;
+}
+/* .section10-2div{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: auto;
+} */
+.secTenDiv{
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes animdiv1 {
+    0%   {left:0px; top:0px;}
+    25%  {left:20px; top:0px;}
+    50%  {left:20px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+
+.header{
+    display: flex;
+     justify-content: center;
+     align-items:center;
+     font-family: Arial;
+     font-weight: bold;
+}
+div .animdiv1{
+    width: 600px;
+    /* height: 600px; */
+    height: auto;
+    position: relative;
+    animation: animdiv1 5s infinite;
+}
+
+@media screen and (max-width:400px) {
+    div .animdiv1{
+        width: 600px;
+        height: auto;
+        position: relative;
+        animation: animdiv1 5s infinite;
+    }
+    .section2Div p{
+        font-size: 18px;
+        font-weight: normal !important;
+        margin-top: -20px !important;
+    }
+    /* .section2 p{
+        font-weight: normal !important;
+        font-weight: 12px !important;
+    } */
+    .section3 .header{
+        text-align: center;
+    }
+    .section5 .header1{
+        text-align: center;
+    }
+    .section6 p{
+        font-weight: normal !important;
+    }
+    .section7 .header2{
+        text-align: center;
+    }
+    .section8 .secpara{
+        text-align: center !important;
+    }
+    .section9 p{
+        height: auto !important;
+    }
+    .section10 .sectenp{
+        text-align: center;
+    }
+
+    /* .section10-2div{
+        display: flex;
+        justify-content: flex-start;
+        width:400px !important;
+    } */
+}
+@media screen and (max-width:600px) and (min-width:401px) {
+    div .animdiv1{
+        width: 600px;
+        height: auto;
+        position: relative;
+        animation: animdiv1 5s infinite;
+    }
+    .section2Div p{
+        font-size: 18px;
+        font-weight: normal !important;
+    }
+    .section5 .header1{
+        text-align: center;
+    }
+    .section6 p{
+        font-weight: normal !important;
+    }
+    .section7 .header2{
+        text-align: center;
+    }
+    .section8 .secpara{
+        text-align: center !important;
+    }
+    .section9 p{
+        height: auto !important;
+    }
+    .section10 .sectenp{
+        text-align: center;
+    }
+
+    /* .section10-2div{ */
+        /* margin-left: 250px !important; */
+        /* margin: 20px auto; */
+        /* display: flex;
+        justify-content: ; */
+        /* width:400px !important;
+    } */
+}
+@media screen and (max-width:900px) and (min-width:601px) {
+    div .animdiv1{
+        width: 600px;
+        height: auto;
+        position: relative;
+        animation: animdiv1 5s infinite;
+    }
+    .section2Div{
+        font-size: 18px;
+        font-weight: normal !important;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+    .section5 .header1{
+        text-align: center;
+    }
+    .section6 img{
+        width: 100%;
+        height:auto;
+    }
+    .section7 .header2{
+        text-align: center;
+    }
+    .section8 .secpara{
+        text-align: center;
+    }
+    .section9 p{
+        height: auto !important;
+    }
+    .section10{
+        display: flex;
+        justify-content: center !important;
+    }
+    .section10 .sectenp{
+        text-align: center;
+    }
+    /* .section10-2div{
+        margin-left: 300px !important;
+        width:400px !important;
+    } */
+}
+@media screen and (max-width:1200px) and (min-width:901px) {
+    div .animdiv1{
+        padding-left: 200px !important;
+        width: 600px;
+        height: auto;
+        position: relative;
+        animation: animdiv1 5s infinite;
+    }
+    .section5 .header1{
+        text-align: center;
+    }
+    .section7 .header2{
+        text-align: center;
+    }
+    .section8 .secpara{
+        text-align: center;
+    }
+    .section9 p{
+        height: auto !important;
+    }
+    .section10 .sectenp{
+        text-align: center;
+    }
+    /* .section10-2div{
+        margin-left: 300px !important;
+        width:400px !important;
+    } */
+    .section2Div{
+        font-size: 18px;
+        font-weight: normal !important;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width:1400px) and (min-width:1201px) {
+    div .animdiv1{
+        padding-left: 0px !important;
+        width: 500px;
+        height: auto;
+        position: relative;
+        animation: animdiv1 5s infinite;
+    }
+    .section2Div{
+        font-size: 18px;
+        font-weight: normal !important;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        height: auto;
+    }
+}
